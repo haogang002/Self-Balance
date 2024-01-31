@@ -13,5 +13,6 @@ while True:
     gy=round(imu.gyro.y)
     gz=round(imu.gyro.z)
     tem=round(imu.temperature,2)
-    print("ax",ax,"\t","ay",ay,"\t","az",az,"\t","gx",gx,"\t","gy",gy,"\t","gz",gz,"\t","Temperature",tem,"        ",end="\r")
+    # print("ax",ax,"\t","ay",ay,"\t","az",az,"\t","gx",gx,"\t","gy",gy,"\t","gz",gz,"\t","Temperature",tem,"        ",end="\r")
+    print("gx",gx,"gy",gy,"gz",gz)
     sleep(0.2)
